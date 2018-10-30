@@ -1,0 +1,480 @@
+.box {
+    width: 450px;
+    position: absolute;
+    padding: 50px;
+    top: 60%;
+    left: 50%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 0px;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+
+.box .txt-box {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.txt-box input{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    width: 100%;
+    float: left;
+    padding: 15px;
+    border-bottom: 1px solid #c3bfbf;
+  
+}
+
+.box .txt-box input:focus ~ label,
+.box .txt-box input:valid ~ label
+{
+    top: -12px;
+    left: 0;
+    color: #2988f7;
+    font-size: 12px;
+}
+
+.box .txt-box input:focus
+{
+    border-bottom: 2px solid #2988f7;
+    transition: .5s;
+}
+
+.box .txt-box label{
+    position: absolute;
+    top= 0;
+    left: 0;
+    padding: 10px 0;
+    pointer-events: none;
+    transition: .2s;
+    color: #8d8989;
+}
+
+.btn {
+    margin-top: 20px;
+    background-color:#2988f7;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.box input[type="submit"]
+{
+    cursor: pointer;
+    border-radius: 5px;
+       
+}
+
+.box h1 {
+   
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.box h2{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.box h1,h2{
+    text-align: center;
+    color: #5c5858;
+}
+
+.new {
+    padding-top: 23px;
+    float: right;
+}
+
+
+
+a{
+    color: #3b97f4;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+.width {
+    width: 700px;
+}
+
+.smw {
+    width: 550px;
+}
+
+
+
+.topnav {
+    overflow: hidden;
+    border-bottom: 1px solid #aaa5a5;
+}
+
+.img {
+    width: 150px;
+    margin-left: 30px;
+}
+
+
+.bbxx {
+    width: 550px;
+    position: absolute;
+    padding: 50px;
+    padding-bottom: 20px;
+    top: 63%;
+    left: 60%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 0px;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+
+.bbxx .oneline {
+    position: relative;
+    width: 50%;
+    overflow: hidden;
+}
+
+.oneline input{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    width: 90%;
+    float: left;
+    padding: 15px;
+    border-bottom: 1px solid #c3bfbf;
+  
+}
+
+.bbxx .oneline input:focus ~ label,
+.bbxx .oneline input:valid ~ label
+{
+    top: -12px;
+    left: 0;
+    color: #2988f7;
+    font-size: 12px;
+}
+
+.bbxx .oneline input:focus
+{
+    border-bottom: 2px solid #2988f7;
+    transition: .5s;
+}
+
+.bbxx .oneline label{
+    position: absolute;
+    top= 0;
+    left: 0;
+    padding: 10px 0;
+    pointer-events: none;
+    transition: .2s;
+    color: #8d8989;
+}
+
+.bbooxx {
+    width: 500px;
+    position: absolute;
+    padding: 50px;
+    top: 50%;
+    left: 60%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 0px;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+
+.bbooxx .oneline {
+    position: relative;
+    width: 50%;
+    overflow: hidden;
+}
+
+.oneline input{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    width: 90%;
+    float: left;
+    padding: 15px;
+    border-bottom: 1px solid #c3bfbf;
+  
+}
+
+.bbooxx .oneline input:focus ~ label,
+.bbooxx .oneline input:valid ~ label
+{
+    top: -12px;
+    left: 0;
+    color: #2988f7;
+    font-size: 12px;
+}
+
+.bbooxx .oneline input:focus
+{
+    border-bottom: 2px solid #2988f7;
+    transition: .5s;
+}
+
+.bbooxx .oneline label{
+    position: absolute;
+    top= 0;
+    left: 0;
+    padding: 10px 0;
+    pointer-events: none;
+    transition: .2s;
+    color: #8d8989;
+}
+
+
+h3 {
+    position: absolute;
+    padding: 50px;
+    top:25%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    color: #5c5858;
+}
+
+.boxxxx {
+    width: 650px;
+    position: absolute;
+    padding: 50px;
+    top: 73%;
+    left: 60%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 0px;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+
+.boxxxx .oneline {
+    position: relative;
+    width: 30%;
+    overflow: hidden;
+}
+
+.oneline input{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    width: 90%;
+    float: left;
+    padding: 15px;
+    border-bottom: 1px solid #c3bfbf;
+  
+}
+
+.boxxxx .oneline input:focus ~ label,
+.boxxxx .oneline input:valid ~ label
+{
+    top: -12px;
+    left: 0;
+    color: #2988f7;
+    font-size: 12px;
+}
+
+.boxxxx .oneline input:focus
+{
+    border-bottom: 2px solid #2988f7;
+    transition: .5s;
+}
+
+.boxxxx .oneline label{
+    position: absolute;
+    top= 0;
+    left: 0;
+    padding: 10px 0;
+    pointer-events: none;
+    transition: .2s;
+    color: #8d8989;
+}
+
+.boxxxx .onlin {
+    position: relative;
+    overflow: hidden;
+}
+
+.onlin input{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    width: 300px;;
+    float: left;
+    padding: 15px;
+    border-bottom: 1px solid #c3bfbf;
+  
+}
+
+.boxxxx .onlin input:focus ~ label,
+.boxxxx .onlin input:valid ~ label
+{
+    top: -12px;
+    left: 0;
+    color: #2988f7;
+    font-size: 12px;
+}
+
+.boxxxx .onlin input:focus
+{
+    border-bottom: 2px solid #2988f7;
+    transition: .5s;
+}
+
+.boxxxx .onlin label{
+    position: absolute;
+    top= 0;
+    left: 0;
+    padding: 10px 0;
+    pointer-events: none;
+    transition: .2s;
+    color: #8d8989;
+}
+
+
+.boxxx {
+    width: 550px;
+    position: absolute;
+    padding: 50px;
+    top: 73%;
+    left: 60%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 0px;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+.boxxx .onlin {
+    position: relative;
+    overflow: hidden;
+}
+
+.onlin input{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    width: 300px;;
+    float: left;
+    padding: 15px;
+    border-bottom: 1px solid #c3bfbf;
+  
+}
+
+.boxxx .onlin input:focus ~ label,
+.boxxx .onlin input:valid ~ label
+{
+    top: -12px;
+    left: 0;
+    color: #2988f7;
+    font-size: 12px;
+}
+
+.boxxx .onlin input:focus
+{
+    border-bottom: 2px solid #2988f7;
+    transition: .5s;
+}
+
+.boxxx .onlin label{
+    position: absolute;
+    top= 0;
+    left: 0;
+    padding: 10px 0;
+    pointer-events: none;
+    transition: .2s;
+    color: #8d8989;
+}
+
+
+.lft {
+    padding-left: 30px;
+}
+
+
+
+h4 {
+  padding:1% 30% 1% 30%;
+  color: #5c5858;
+}
+
+.check label{
+    color: #5c5858;
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight:600;
+}
+
+
+
+.sel {
+    padding-left: 250px;
+    padding-top: 30px;
+}
+
+.sel select{
+  color: #5c5858;
+}
+
+label{
+    color: #8d8989;
+}
+
+.pppp,h5 {
+    font-weight: 500;
+    padding-top: 20px;
+    font-size: 20px;
+    color:#5c5858;
+}
+
+.cl {
+     color:#5c5858;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 230px;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 50px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+}
+.sidenav a:first-child{
+    font-size: 25px;
+    padding-left: 10px;
+    color: #f1f1f1;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+
